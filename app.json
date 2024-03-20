@@ -1,0 +1,31 @@
+{
+  "name": "giveaway-bot",
+  "description": "A Telegram bot for managing giveaways.",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Your Telegram API ID, as an integer.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your Telegram API hash, as a string.",
+      "value": ""
+    },
+    "CHAT_LINKS": {
+      "description": "Comma-separated list of chat links.",
+      "value": ""
+    },
+    "REQUIRED_CHAT_IDS": {
+      "description": "Comma-separated list of required chat IDs.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
